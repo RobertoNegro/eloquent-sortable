@@ -1,3 +1,6 @@
+
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
+
 # Sortable behaviour for Eloquent models
 
 [![Latest Version](https://img.shields.io/github/release/spatie/eloquent-sortable.svg?style=flat-square)](https://github.com/spatie/eloquent-sortable/releases)
@@ -45,7 +48,7 @@ In Laravel 5.5 and above the service provider will automatically get registered.
 Optionally you can publish the config file with:
 
 ```bash
-php artisan vendor:publish --provider="Spatie\EloquentSortable\EloquentSortableServiceProvider" --tag="eloquent-sortable-config"
+php artisan vendor:publish --tag=eloquent-sortable-config
 ```
 
 This is the content of the file that will be published in `config/eloquent-sortable.php`
@@ -219,7 +222,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 

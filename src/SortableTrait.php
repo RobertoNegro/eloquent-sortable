@@ -54,7 +54,7 @@ trait SortableTrait
             throw new InvalidArgumentException('You must pass an array or ArrayAccess object to setNewOrder');
         }
 
-        $model = new static;
+        $model = new static();
 
         $orderColumnName = $model->determineOrderColumnName();
 
